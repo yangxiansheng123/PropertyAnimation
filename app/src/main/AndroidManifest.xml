@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.RotateMerginExpandActivity"></activity>
+        <activity android:name=".activity.RotateMerginExpandActivity" />
+        <activity android:name=".activity.LoadingBounceActivity" />
+        <activity android:name=".activity.AnimalSetActivity"></activity>
     </application>
 
 </manifest>

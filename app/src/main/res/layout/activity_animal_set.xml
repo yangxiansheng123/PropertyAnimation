@@ -4,25 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activity.AnimalSetActivity"
     android:orientation="vertical">
 
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_alpha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="聚合，扩撒，旋转动画" />
+        android:text="alpha" />
 
     <Button
-        android:id="@+id/btn_bounce_animal"
+        android:id="@+id/btn_t_a_s"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="弹跳加载动画" />
+        android:text="平移透明缩放" />
 
     <Button
-        android:id="@+id/btn_animal_set"
+        android:id="@+id/btn_Interpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Interpolator" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/p1" />
+
 </LinearLayout>
